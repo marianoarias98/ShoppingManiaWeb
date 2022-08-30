@@ -106,7 +106,7 @@ a {
 
 /*CATEGORIES*/
 
-.categories {
+.categories, .auriculares {
     background-color: #fafafa;
 }
 
@@ -135,13 +135,47 @@ a {
 }
 
 .categorie__image{  
-
     background-size: contain;
     margin-bottom: 10px;
 }
 
 .categorie__title a{
     color: black;
+}
+
+/* AURICULARES SECTION*/
+
+.auriculares__title, .auriculares__paragraph, .auriculares__in-eaer__title{
+    margin-bottom: 20px;
+}
+
+.auriculares__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.auricular__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    margin: 0 10px 30px;
+    max-width: 340px;
+}
+
+.auricular__image{
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.auricular__title{
+    font-weight: bold;
 }
 
 /*FOOTER*/
