@@ -33,6 +33,12 @@ const videos = [
     urlImage: "images/Videos/Video 5.gif",
     urlWeb: "https://www.youtube.com/watch?v=bHsqdP3abbw"
   },  
+
+  {
+    nombre: "3 Mejores DRONES para GRABAR videos para YOUTUBE o Eventos",
+    urlImage: "images/Videos/Video 6.gif",
+    urlWeb: "https://www.youtube.com/watch?v=rd5lcE0jJ-4"
+  },  
 ]
 
 menuButtom.addEventListener("click", showHideMenu)

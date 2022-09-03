@@ -72,7 +72,7 @@ a {
 
 .hero {
     height: 85vh;
-    background: linear-gradient(to right, rgba(21, 21, 21, 0.9), rgba(21, 21, 21, 0.5)), url(../Images/Header/Header.gif);
+    background: linear-gradient(to right, rgba(21, 21, 21, 0.9), rgba(21, 21, 21, 0.5)), url(../Images/Header/Header.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,13 +95,18 @@ a {
     margin-bottom: 40px;
 }
 
-.hero__button {
+.button {
     padding: 8px;
     background-color: #e0e809;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
     font-weight: bold;
     color: black;
+}
+
+.button:hover{
+    font-weight: 900;
+    padding: 10px;
 }
 
 /*CATEGORIES*/
@@ -139,13 +144,14 @@ a {
     margin-bottom: 10px;
 }
 
-.categorie__title a{
+.categorie__item a{
     color: black;
+    font-weight: bold;
 }
 
 /* AURICULARES SECTION*/
 
-.auriculares__title, .auriculares__paragraph, .auriculares__in-eaer__title{
+.auriculares__title, .auriculares__paragraph, .auriculares__type__title{
     margin-bottom: 20px;
 }
 
@@ -172,10 +178,19 @@ a {
 .auricular__image{
     background-size: contain;
     margin-bottom: 30px;
+    height: 100%;
 }
 
 .auricular__title{
     font-weight: bold;
+}
+
+.verMasButton{
+    display: block;
+    margin: 0 auto 20px;
+
+    width: 200px;
+    text-align: center;
 }
 
 /*FOOTER*/
@@ -215,11 +230,10 @@ footer{
         height: 50vh;
     }
 
-    .categories__Cards{
+
+
+    .categories__Cards, .footer__container, .auriculares__items{
         justify-content: left;
     }
 
-    .footer__container{
-        justify-content: left;
-    }
 }
